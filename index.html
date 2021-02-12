@@ -5,33 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <script src="https://kit.fontawesome.com/9d99e414d1.js" crossorigin="anonymous"></script>
     <style>
-
+        
         h1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-
+            font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+            text-align: center; 
+            font-size: 34px;
+            color: #6D6875;    
+        }
         p {
-            font-family: Gill Sans, sans-serif
+            font-family: Gill Sans, sans-serif;
+            text-align: center; 
+            font-size: 17px;    
+            line-height: 20px;
             }
-
-        body {
-            background-color: #FFCDB2;
+      
+        .imagem {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            border-radius:25%;
         }
 
-
+        body {
+            background-color: #FFCDB2; 
+            
+        }
+        h4{
+            font-size: 24px;
+            text-align: left;
+            padding-left:20px;
+            color: #2a9d8f;
+            line-height: 8px;   
+        }
+        ul{
+            text-align: left;
+            padding-left:60px;
+            font-size: 18px;
+        }
+       
     </style>
 </head>
 <body>
-    <h1 id="Nome">Letícia Branco Galvão</h1>
 
-    <img id="imagem" src="let.jpeg" alt="Foto do usuário" width="100px"><br><br>
+    <p>
 
-    <a href="let.jpeg">Ampliar imagem</a>
+        <a href="#descricao" >Quem sou |</a>
+        <a href="#habilidades">Habilidades |</a>
+        <a href="skills">Skills |</a>
+        <a href="#blogs">Blogs</a>
+    </p>
+    
+    <hr>
 
-    <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong><br>
-        Itú, São Paulo, Brasil<br>
-    <em>Turma 10 - Tribo B de Fevereiro de 2021</em></p>
+    <h1  id="Nome">Letícia Branco Galvão</h1>
+
+    <a href="let.jpeg"target="_blank">
+        <img class="imagem" src="let.jpeg" alt="Foto do usuário" width="100px"><br><br>
+    </a>
+
+    <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong> |
+        <em>Turma 10 - Tribo B de Fevereiro de 2021</em><br> Graduada em gestão financeira, Residente de 
+        <strong>Itú, São Paulo, Brasil</strong> em constante evolução e buscando sempre entender
+        as coisas <br> funcionam e como posso ajudar a melhorar a qualidade de vida das pessoas com esses conhecimentos.
+    </p>
+
+    <hr>
 
     <h4 id="habilidades">Habilidades</a></h4>
 
@@ -42,13 +82,23 @@
         <li>Dedicação</li>
     </ul>
 
-    <h4 id="linksexternos">Links externos</h4>
-    <a href="https://app.betrybe.com/course/real-life-engineer/vscode#live-server" target="_blank">O VS Code</a><br><br>
+    <h4>Skills</h4>
+
+    <ul>
+        <li>Unix e Shell</li>
+        <li>Git e Github</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+
+    <h4 id="blogs">Blogs</h4>
+
+    <ul>
+        <a id="linkexterno"href="https://app.betrybe.com/course/real-life-engineer/vscode#live-server" target="_blank">O VS Code
+        </a>
+    </ul>
     
-    <a href="#nome">Nome</a> 
-    <a href="#imagem">Imagem</a>
-    <a href="#descricao">Descrição</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#linksexternos">Links Externos</a>
+    <br>
+    
 </body>
 </html>
