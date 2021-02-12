@@ -1,104 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Web</title>
-    <script src="https://kit.fontawesome.com/9d99e414d1.js" crossorigin="anonymous"></script>
-    <style>
-        
-        h1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-            text-align: center; 
-            font-size: 34px;
-            color: #6D6875;    
-        }
-        p {
-            font-family: Gill Sans, sans-serif;
-            text-align: center; 
-            font-size: 17px;    
-            line-height: 20px;
-            }
-      
-        .imagem {
-            display:block;
-            margin-left:auto;
-            margin-right:auto;
-            border-radius:25%;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio Web</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Roboto&display=swap">
 
-        body {
-            background-color: #FFCDB2; 
+        <style>
             
-        }
-        h4{
-            font-size: 24px;
-            text-align: left;
-            padding-left:20px;
-            color: #2a9d8f;
-            line-height: 8px;   
-        }
-        ul{
-            text-align: left;
-            padding-left:60px;
-            font-size: 18px;
-        }
-       
-    </style>
-</head>
-<body>
+            h1 {
+                text-align: center; 
+                font-size: 34px;
+                color: #6D6875;    
+            }
+            p {
+                text-align: center; 
+                font-size: 17px;    
+                line-height: 20px;
+                }
+        
+            .imagem {
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                border-radius:25%;
+            }
 
-    <p>
+            body {
+                font-family: 'Montserrat', sans-serif;
+                background-color: #FFCDB2; 
+                background-image: linear-gradient(315deg, #FFCDB2 0%, #e5989b 74%);
+            }
+            h4{
+                font-size: 24px;
+                text-align: left;
+                padding-left:20px;
+                color:#1a535c;
+                line-height: 8px;   
+            }
+            ul{
+                text-align: left;
+                padding-left:60px;
+                font-size: 18px;
+            }
+        
+            .buttom{
+                text-align: center ;
+                background-color:#b5838d ;
+                color:ivory;
+                padding: 10px;
+                text-align: center;
+                border-radius: 10px;
+                font-weight: 700;
+                text-decoration: none;
+                line-height: 25px;    
+            }
+        
+        </style>
+    </head>
+    <body>
 
-        <a href="#descricao" >Quem sou |</a>
-        <a href="#habilidades">Habilidades |</a>
-        <a href="skills">Skills |</a>
-        <a href="#blogs">Blogs</a>
-    </p>
-    
-    <hr>
+        
+        <p>
+            <a class="buttom" href="#descricao" >Quem sou</a>
+            <a class="buttom" href="#habilidades">Habilidades</a>
+            <a class="buttom" href="#skills">Skills</a>
+            <a class="buttom" href="#blogs">Blogs</a>
+        </p>
+        
+        <hr>
 
-    <h1  id="Nome">Letícia Branco Galvão</h1>
+        <h1  id="Nome">Letícia Branco Galvão</h1>
 
-    <a href="let.jpeg"target="_blank">
-        <img class="imagem" src="let.jpeg" alt="Foto do usuário" width="100px"><br><br>
-    </a>
-
-    <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong> |
-        <em>Turma 10 - Tribo B de Fevereiro de 2021</em><br> Graduada em gestão financeira, Residente de 
-        <strong>Itú, São Paulo, Brasil</strong> em constante evolução e buscando sempre entender
-        as coisas <br> funcionam e como posso ajudar a melhorar a qualidade de vida das pessoas com esses conhecimentos.
-    </p>
-
-    <hr>
-
-    <h4 id="habilidades">Habilidades</a></h4>
-
-    <ul>
-        <li>Curiosidade</li>
-        <li>Resilência</li>
-        <li>Empatia</li>
-        <li>Dedicação</li>
-    </ul>
-
-    <h4>Skills</h4>
-
-    <ul>
-        <li>Unix e Shell</li>
-        <li>Git e Github</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
-
-    <h4 id="blogs">Blogs</h4>
-
-    <ul>
-        <a id="linkexterno"href="https://app.betrybe.com/course/real-life-engineer/vscode#live-server" target="_blank">O VS Code
+        <a href="let.jpeg"target="_blank">
+            <img class="imagem" src="let.jpeg" alt="Foto do usuário" width="100px"><br><br>
         </a>
-    </ul>
-    
-    <br>
-    
-</body>
+
+        <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong> |
+            <em>Turma 10 - Tribo B de Fevereiro de 2021</em><br> Graduada em gestão financeira, Residente de 
+            <strong>Itú, São Paulo, Brasil</strong> em constante evolução e buscando sempre entender
+            as coisas <br> funcionam e como posso ajudar a melhorar a qualidade de vida das pessoas com esses conhecimentos.
+        </p>
+
+        <hr>
+
+        <h4 id="habilidades">Habilidades</a></h4>
+
+        <ul>
+            <li>Curiosidade</li>
+            <li>Resilência</li>
+            <li>Empatia</li>
+            <li>Dedicação</li>
+        </ul>
+
+        <h4 id="skills">Skills</h4>
+
+        <ul>
+            <li>Unix e Shell</li>
+            <li>Git e Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+
+        <h4 id="blogs">Blogs</h4>
+
+        <ul>
+            <li><a href="https://app.betrybe.com/course/real-life-engineer/vscode#live-server" 
+            target="_blank">O VS Code</a></li>
+            <li><a href="https://elascodam.wordpress.com/home/" target="_blank">Elas Codam</a></li>
+        </ul>
+        
+        <br>
+        
+        <a href="https://www.linkedin.com/in/leticia-galvao/" target="_blank">
+            <img src="logotipo-do-linkedin.png" alt="Logotipo linkedin" width="60px">
+            <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+        </a>   
+    </body>
 </html>
