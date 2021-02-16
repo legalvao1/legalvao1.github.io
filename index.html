@@ -6,91 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio Web</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Roboto&display=swap">
-
-        <style>
-            
-            h1 {
-                text-align: center; 
-                font-size: 34px;
-                color: #6D6875;    
-            }
-            p {
-                text-align: center; 
-                font-size: 17px;    
-                line-height: 20px;
-                }
-        
-            .imagem {
-                display:block;
-                margin-left:auto;
-                margin-right:auto;
-                border-radius:25%;
-            }
-
-            body {
-                font-family: 'Montserrat', sans-serif;
-                background-color: #FFCDB2; 
-                background-image: linear-gradient(315deg, #FFCDB2 0%, #e5989b 74%);
-            }
-            h4{
-                font-size: 24px;
-                text-align: left;
-                padding-left:20px;
-                color:#1a535c;
-                line-height: 8px;   
-            }
-            ul{
-                text-align: left;
-                padding-left:60px;
-                font-size: 18px;
-            }
-        
-            .buttom{
-                text-align: center ;
-                background-color:#b5838d ;
-                color:ivory;
-                padding: 10px;
-                text-align: center;
-                border-radius: 10px;
-                font-weight: 700;
-                text-decoration: none;
-                line-height: 25px;    
-            }
-
-            .social_media{
-                padding: 10px;
-            }
-
-            html {
-                scroll-behavior: smooth;
-                } 
-        
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
         
-        <p>
+        <p class="buttom-menu">
             <a class="buttom" href="#descricao" >Quem sou</a>
             <a class="buttom" href="#habilidades">Habilidades</a>
             <a class="buttom" href="#skills">Skills</a>
             <a class="buttom" href="#blogs">Blogs</a>
         </p>
-        
         <hr>
+        <div class="profile-container">
+            
+            
+            <div class="name"><h1>Letícia Branco Galvão</h1></div>
 
-        <h1  id="Nome">Letícia Branco Galvão</h1>
+            <div class="profile" >
+                <a href="let.jpeg"target="_blank">
+                    <img class="image" src="let.jpeg" alt="Foto do usuário" width="200px"><br><br>
+                </a>
+            </div>
 
-        <a href="let.jpeg"target="_blank">
-            <img class="imagem" src="let.jpeg" alt="Foto do usuário" width="100px"><br><br>
-        </a>
+            <div class="profile">
+                <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong> |
+                    <em>Turma 10 - Tribo B de Fevereiro de 2021</em><br> Graduada em gestão financeira, Residente de 
+                    <strong>Itú, São Paulo, Brasil</strong> em constante evolução e buscando sempre entender
+                    as coisas <br> funcionam e como posso ajudar a melhorar a qualidade de vida das pessoas com esses conhecimentos.
+                </p>
+            </div>
 
-        <p id="descricao" >Estudante de desenvolvimento de software na <strong>Trybe</strong> |
-            <em>Turma 10 - Tribo B de Fevereiro de 2021</em><br> Graduada em gestão financeira, Residente de 
-            <strong>Itú, São Paulo, Brasil</strong> em constante evolução e buscando sempre entender
-            as coisas <br> funcionam e como posso ajudar a melhorar a qualidade de vida das pessoas com esses conhecimentos.
-        </p>
-
+        </div>
         <hr>
 
         <h4 id="habilidades">Habilidades</a></h4>
