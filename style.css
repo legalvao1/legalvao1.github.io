@@ -13,6 +13,7 @@ body {
     background-color: honeydew;
     background-position: 50% 25%;
     padding: 15px;
+    border-bottom: 2px solid #adb5bd;
 } 
 .buttom{
     text-align: center ;
@@ -72,14 +73,17 @@ body {
     line-height: 40px;   
 }
 
-.content ul{
+.content ul {
     text-align: left;
     padding:20px;
     font-size: 18px;
+    list-style-type: none;
+    
 }
 
 .content ul li:nth-of-type(2n+1){
     font-style: italic;
+    
 }
 
 .social_media {
