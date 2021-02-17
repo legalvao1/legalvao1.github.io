@@ -56,28 +56,35 @@ body {
     font-size: 20px;
     
 }
+.header-content{
+    text-align: center;
+}
 
-h4{
+.content{
+    display: inline-block;
+    padding: 30px 70px 90px 70px;
+    margin: auto;
+
+}
+.content h4{
     font-size: 24px;
-    text-align: left;
-    padding-left:20px;
     color:#6D6875;
     line-height: 40px;   
 }
-.lists{
+
+.content ul{
     text-align: left;
-    padding-left:60px;
+    padding:20px;
     font-size: 18px;
 }
 
-.lists li:nth-of-type(2n+1){
+.content ul li:nth-of-type(2n+1){
     font-style: italic;
 }
 
-
-
 .social_media {
     text-align: center;   
+    padding-top: 20px;
 }
 .social_media a{
     padding: 10px;
