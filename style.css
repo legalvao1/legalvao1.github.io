@@ -13,7 +13,7 @@ body {
     background-color: honeydew;
     background-position: 50% 25%;
     padding: 15px;
-    border-bottom: 2px solid #adb5bd;
+    border-bottom: 1px solid #adb5bd;
 } 
 .buttom{
     text-align: center ;
@@ -63,29 +63,28 @@ body {
 
 .content{
     display: inline-block;
-    padding: 30px 70px 90px 70px;
-    margin: auto;
-
+    padding: 30px 50px 90px 50px;
+    margin: 5px;
+    background-color: honeydew;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px grey;
 }
 .content h4{
     font-size: 24px;
     color:#6D6875;
-    line-height: 40px;   
+    line-height: 40px;
+   
 }
 
 .content ul {
     text-align: left;
     padding:20px;
     font-size: 18px;
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
-
 .content ul li:nth-of-type(2n+1){
-    font-style: italic;
-    
+    font-style: italic;  
 }
-
 .social_media {
     text-align: center;   
     padding-top: 20px;
@@ -93,7 +92,6 @@ body {
 .social_media a{
     padding: 10px;
 }
-
 .icones {
     text-align: center;
     padding-top: 15px;
@@ -102,3 +100,7 @@ body {
 html {
     scroll-behavior: smooth;
 } 
+
+#projects {
+    text-decoration: none;
+}
