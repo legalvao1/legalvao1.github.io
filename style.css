@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,42 +8,47 @@ body {
     background-image: linear-gradient(315deg, #FFCDB2 0%, #e5989b 74%);
 }
 
-.buttom-menu{
+.buttom-menu {
     text-align: center; 
     background-color: honeydew;
     background-position: 50% 25%;
-    padding: 15px;
+    padding: 25px;
     border-bottom: 1px solid #adb5bd;
-} 
-.buttom{
+}
+
+.buttom {
     text-align: center ;
     background-color:#b5838d ;
     color:ivory;
     padding: 10px;
     border-radius: 10px;
     font-weight: 700;
-    text-decoration: none;    
+    text-decoration: none;
+    opacity: 0.5;
+}
+.buttom:hover{
+    opacity: 1;
 }
 
 .name {
-    text-align: center; 
+    display: flex;
+    justify-content: center;
     font-size: 25px;
-    color: #6D6875;    
+    color: white;
+    margin: 60px;
 }
 
-.profile-container{
-    padding: 30px 70px 60px 30px;
-    margin: auto;
-    width: 80%;    
-    
+.profile-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%; 
+    min-height: 300px;
 }
 .profile{
-    margin: 20px;
-    text-align: center;
-    width: 40%;
-    display: inline-block;
+    width: 50%;
+    margin: 15px;
 }
-.image{
+.image {
     border-radius:25%;
     padding: 5px;
     background-color: white;
@@ -58,18 +63,30 @@ body {
     
 }
 .header-content{
+    display: flex;
     text-align: center;
+    min-height: 320px;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .content{
-    display: inline-block;
-    padding: 30px 50px 90px 50px;
-    margin: 5px;
+    display: flex;
+    align-content: center;
+    padding: 50px 20px;
+    margin: 10px;
     background-color: honeydew;
     border-radius: 25px;
     box-shadow: 10px 5px 5px grey;
+    flex-direction: column;
+    min-width: 190px;
+    flex-wrap: wrap;
+    
+   
 }
 .content h4{
+    display: flex;
+    justify-content: center;
     font-size: 24px;
     color:#6D6875;
     line-height: 40px;
@@ -77,14 +94,14 @@ body {
 }
 
 .content ul {
+    display: flex;
+    flex-direction: column;
     text-align: left;
     padding:20px;
     font-size: 18px;
-    list-style-type: none;   
+    list-style-type: none; 
 }
-.content ul li:nth-of-type(2n+1){
-    font-style: italic;  
-}
+
 .social_media {
     text-align: center;   
     padding-top: 20px;
