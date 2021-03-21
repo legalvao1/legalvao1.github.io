@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(315deg, #34a0a4 0%, #e5989b 74%); 
+}
+
+li {
+  background-color: white;
+}
+
+.selected {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0 , 0 , 0);
+}
+
+header {
+  margin: 50px 40px;
+}
+
+#texto-tarefa {
+  margin-left: 40px;
+}
+
+div, ol {
+  background-color: white;
+  margin: 5px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  border-radius: 45px;
+  width: 50%;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+button {
+  border: none; /* Remove borders */
+  color: black;
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 20px;
+  
+}
+button:hover {
+  background-color: grey;
+}
+
+footer {
+  margin: 150px 20px;
+}

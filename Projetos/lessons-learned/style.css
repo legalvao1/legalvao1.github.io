@@ -1,0 +1,85 @@
+body {
+  background-color: rgb( 253, 251, 251);
+  font-family: fantasy;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  background-color: seagreen;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 30px;
+}
+
+nav {
+  position: fixed;
+  margin-top: 80px;
+  margin-left: 45%;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 5px;
+}
+
+img {
+  margin-top: 150px;
+  border-radius: 50%;
+}
+
+section ol , ul {
+  display: inline-block;
+  text-align: justify;
+  margin-top: auto;
+  padding: 5px 50px 30px;
+}
+
+section h2 {
+  margin-left: 40px;
+}
+
+section h3 {
+  margin-left: -40px;
+}
+
+.lado-esquerdo h3 , .lado-direito h3 {
+  padding-right: 25px;
+}
+
+.lado-esquerdo , .lado-direito {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.lado-esquerdo {
+  padding: 20px;
+  text-align: justify;
+  max-width: 50%;
+  display: inline-flex;
+  margin: 20px;
+  border-radius: 5%;
+}
+
+.lado-direito {
+  padding: 20px;
+  text-align: justify;
+  max-width: 30%;
+  display: inline-flex;
+  background-color: rgb(100, 211, 148);
+  border-radius: 5%;
+}
+
+table , tr , td {
+  border-top: 3px solid seagreen;
+  margin-bottom: 20px;
+  padding-right: 100%;
+}
+
+footer {
+  text-align: center;
+}
